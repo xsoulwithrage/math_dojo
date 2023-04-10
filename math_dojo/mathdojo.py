@@ -2,12 +2,12 @@ class Mathdojo:
       def __init__(self):
             self.resultado = 0
 
-      def sumar(self, *args):
+      def suma(self, *args):
             for arg in args:
                   self.resultado += arg
             return self
       
-      def restar(self, *args):
+      def resta(self, *args):
             for arg in args:
                   self.resultado += arg
             return self
